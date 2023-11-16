@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tq42-objective-function-quickstart"
+version = "0.1.0"
+description = ""
+authors = ["Steven Beckers <sb@terraquantum.swiss>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+reactivex = "^4.0.4"
+fastapi = "^0.104.1"
+uvicorn = {version = "^0.24.0.post1", extras = ["standard"]}
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
