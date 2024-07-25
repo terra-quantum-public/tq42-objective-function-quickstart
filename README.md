@@ -1,3 +1,5 @@
+# IMPORTANT NOTE: This repo is no longer maintained and will be archived in a few days. Please use our new channels approach for objective functions. For this you can take a look at the TQ42 documentation.
+
 # Creating a TQ42 objective function
 
 Welcome to the quick start guide for the TQ42 objective function. This guide will help you create the objective function to be passed in your parameters when running certain types of experiments on TQ42. For more, visit [tq42.com](https://tq42.com). 
